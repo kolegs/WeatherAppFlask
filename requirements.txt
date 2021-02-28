@@ -1,0 +1,22 @@
+astroid==2.4.2
+certifi==2020.12.5
+chardet==4.0.0
+click @ file:///home/linux1/recipes/ci/click_1610990599742/work
+colorama==0.4.4
+Flask==1.1.2
+idna==2.10
+isort==5.6.4
+itsdangerous==1.1.0
+Jinja2 @ file:///home/linux1/recipes/ci/jinja2_1610990516718/work
+lazy-object-proxy==1.4.3
+MarkupSafe==1.1.1
+mccabe==0.6.1
+psycopg2==2.8.6
+pyfcm==1.5.1
+pylint==2.6.0
+requests==2.25.1
+toml==0.10.1
+urllib3==1.26.2
+Werkzeug==1.0.1
+wincertstore==0.2
+wrapt==1.12.1

@@ -43,7 +43,7 @@ def hello_world():
 
 @app.route('/send/<title>/<message>')
 def send(title, message):
-    push_service = FCMNotification(api_key="AAAAFNnM5LY:APA91bHftpk7ulAOFtHI13OTLU3a_xX70IBKzDtMvTtMFnOYkGHrCB7OAyM8MF3tn2KDBiGdMNlS3d7Ab_DRRx2gZkqLaYrHoUdcGjbAeMa38KYGWCSwoloCW4XZBG4sDU1poVd8-1hM")
+    push_service = FCMNotification(api_key="YOUR_KEY_HERE")
 
     cur = con.cursor()
     sql = """SELECT token FROM "Users";"""
